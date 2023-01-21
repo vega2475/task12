@@ -60,6 +60,7 @@ public class Solution {
 
         // для главной папки
         RecursivePrint(arr, ++index, level, dir);
+
     }
 
     public static void solve(String mainDirPath) {
