@@ -32,13 +32,6 @@ public class ParseFromConsole extends PrintStream {
         original.println();
     }
 
-    public PrintStream printf(String s, Object... args) {
-        sb.append( String.format(s, args) );
-        original.printf(s, args);
-        return null;
-    }
-
-
 
     public String getAllWrittenText() {
         return sb.toString();
