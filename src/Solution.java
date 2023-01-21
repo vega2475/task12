@@ -1,6 +1,8 @@
 //Отсчет уровня вложенности ведется с 0 (тоесть при нахождении в дирректории dir1, dir2, dir3 level = 0)
 
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Solution {
 
@@ -35,7 +37,7 @@ public class Solution {
     }
 
 
-    static void RecursivePrint(File[] arr, int index, int level, File dir) {
+    static void RecursivePrint(File[] arr, int index, int level, File dir, List<String> list) {
         //для возвращения к главной рекурсии
         if (index == arr.length)
             return;
@@ -43,46 +45,39 @@ public class Solution {
         // для файлов
         if (arr[index].isFile() && level == deepestLevel(dir)) {
             sb.append((arr[index].getName()));
-            System.out.println(arr[index].getName());
+            list.add(arr[index].getName());
         }
 
         // рекурсия для подпапок (на поиск)
         else if (arr[index].isDirectory() && level == deepestLevel(dir)) {
             sb.append(arr[index].getName());
-            System.out.println("[" + arr[index].getName()
+            list.add("[" + arr[index].getName()
                     + "]");
         }
         if (arr[index].isDirectory()) {
             // рекурсия для "погружения"
             RecursivePrint(arr[index].listFiles(), 0,
-                    level + 1, dir);
+                    level + 1, dir, list);
         }
 
         // для главной папки
-        RecursivePrint(arr, ++index, level, dir);
+        RecursivePrint(arr, ++index, level, dir, list);
 
     }
 
-    public static void solve(String mainDirPath) {
+    public static List<String> solve(String mainDirPath, List<String> list) {
 
 
         File mainDir = new File(mainDirPath);
 
-        System.out.println("Максимальная глубина " + deepestLevel(mainDir));
 
-        if (mainDir.exists() && mainDir.isDirectory()) {
-
-            File[] arr = mainDir.listFiles();
-
-            if (arr == null) {
-                System.out.println(mainDir);
-            }
+        File[] arr = mainDir.listFiles();
 
 
-            RecursivePrint(arr, 0, 0, mainDir);
+        assert arr != null;
+        RecursivePrint(arr, 0, 0, mainDir, list);
 
-        }
-
-
+        deepestLevelDigit = 0;
+        return list;
     }
 }

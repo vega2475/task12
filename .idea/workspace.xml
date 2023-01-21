@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec69a5d4-6e20-4036-8bc1-da82ec610390" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ParseFromConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ParseFromConsole.java" afterDir="false" />
+    <list default="true" id="ec69a5d4-6e20-4036-8bc1-da82ec610390" name="Changes" comment="rel">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dir/dir2/dir2.1/dir2.1.1/p/sss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dir/dir2/dir2.1/nikM.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dir/dir3/dir3.2/dir3.2.1/nik/qwe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dir/dir3/dir3.2/dir3.2.1/puk.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dir/dir3/dir3.2/vega2004.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuiForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuiForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuiForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuiForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ParseFromConsole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,21 +40,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="task12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,8 +82,17 @@
       <workItem from="1674222149056" duration="22551000" />
       <workItem from="1674295698601" duration="3904000" />
       <workItem from="1674305798103" duration="2930000" />
-      <workItem from="1674317805892" duration="232000" />
+      <workItem from="1674317805892" duration="271000" />
+      <workItem from="1674318611128" duration="3469000" />
     </task>
+    <task id="LOCAL-00001" summary="rel">
+      <created>1674318065491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674318065491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,6 +109,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rel" />
+    <option name="LAST_COMMIT_MESSAGE" value="rel" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -82,6 +120,11 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="6" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
