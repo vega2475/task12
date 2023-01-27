@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec69a5d4-6e20-4036-8bc1-da82ec610390" name="Changes" comment="rel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/dir2/dir2.1/dir2.1.1/p/sss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/dir2/dir2.1/nikM.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/dir3/dir3.2/dir3.2.1/nik/qwe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/dir3/dir3.2/dir3.2.1/puk.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/dir3/dir3.2/vega2004.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuiForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuiForm.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GuiForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuiForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ParseFromConsole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ec69a5d4-6e20-4036-8bc1-da82ec610390" name="Changes" comment="rel2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +71,7 @@
       <workItem from="1674295698601" duration="3904000" />
       <workItem from="1674305798103" duration="2930000" />
       <workItem from="1674317805892" duration="271000" />
-      <workItem from="1674318611128" duration="3469000" />
+      <workItem from="1674318611128" duration="3656000" />
     </task>
     <task id="LOCAL-00001" summary="rel">
       <created>1674318065491</created>
@@ -92,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674318065491</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rel2">
+      <created>1674322216451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674322216451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rel" />
-    <option name="LAST_COMMIT_MESSAGE" value="rel" />
+    <MESSAGE value="rel2" />
+    <option name="LAST_COMMIT_MESSAGE" value="rel2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -122,7 +118,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Solution.java</url>
-          <line>82</line>
+          <line>80</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
